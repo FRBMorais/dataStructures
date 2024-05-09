@@ -43,19 +43,4 @@ class Stack:
 
     def __str__(self) -> list:
         print(self.iterable)
-
-
-
-stack_test = Stack([])
-
-print(type(stack_test))
-
-stack_test.__str__()
-stack_test.push(1)
-stack_test.push(2)
-stack_test.push(4)
-stack_test.push(3)
-stack_test.__str__()
-
-stack_test.pop()
-stack_test.__str__()
+        
