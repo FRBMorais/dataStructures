@@ -41,6 +41,6 @@ class Stack:
         
         return self.iterable[-1]
 
-    def __str__(self) -> list:
-        print(self.iterable)
+    def __str__(self) -> str:
+        return f"Stack --> {self.iterable}"
         
